@@ -4,4 +4,5 @@ authors = ["BD103"]
 language = "en"
 
 [output.html]
+site-url = "/DOCS-2022-23/"
 mathjax-support = true
