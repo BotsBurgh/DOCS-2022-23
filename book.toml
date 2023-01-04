@@ -1,0 +1,7 @@
+[book]
+title = "Botsburgh 2022-23 Developer Docs"
+authors = ["BD103"]
+language = "en"
+
+[output.html]
+mathjax-support = true
