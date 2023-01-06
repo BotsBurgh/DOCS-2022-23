@@ -9,4 +9,4 @@
 - [Robot Class](arch/robot.md)
 - [Components](arch/components.md)
     - [Advanced Patterns](arch/component-patterns.md)
-- [Plugins]()
+- [Plugins](arch/plugins.md)

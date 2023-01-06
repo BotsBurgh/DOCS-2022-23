@@ -62,3 +62,5 @@ class MySuperReadableComponent: Component() {
 ```
 
 > **Note:** The `println` function will not actually work in a component. (I just needed an example that didn't use the context variable.) If you need to print text, please use the telemetry.
+
+You can use these functions just fine, but be warned! If you ever need to use this code outside of the component, it is better to use a [plugin](plugin.md). This pattern is not a replacement for plugins, just a quick way that bypasses the complications of registering one for a simple function.
