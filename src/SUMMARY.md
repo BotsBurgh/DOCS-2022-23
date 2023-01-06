@@ -6,6 +6,7 @@
 
 - [What it solves](arch/why.md)
 - [TeleOp Runtime](arch/runtime.md)
-- [Robot](arch/robot.md)
+- [Robot Class](arch/robot.md)
 - [Components](arch/components.md)
+    - [Advanced Patterns](arch/component-patterns.md)
 - [Plugins]()

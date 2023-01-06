@@ -1,4 +1,4 @@
-# Robot
+# Robot Class
 
 The Arch API's robot class is an inheritable class that controls the registration of components and plugins. They are used for configuration and managing custom runmodes with different components.
 

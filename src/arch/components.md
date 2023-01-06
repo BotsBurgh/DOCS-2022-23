@@ -20,7 +20,7 @@ A component has three optional properties, though most components will only over
 Here is an example telemetry component:
 
 ```kotlin
-/**
+/*
  * This will print "Initialized" and "Running" in their respective phases.
  * It won't work correctly yet, so please continue reading.
  */
@@ -64,3 +64,20 @@ class Logger: Component() {
 ```
 
 That's our first working component! For the full code, you can look at [the Github repo](https://github.com/BotsBurgh/BOTSBURGH-FTC-2022-23/blob/e2cb96f4cc37e7717553451c69f9a0134370717d/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/api/components/LoggerTeleOp.kt).
+
+## Registering a component
+
+We've programmed a simple logger component, but how do we use it? This is where the [robot class](robot.md) comes into play. (Please look at that page first for setting up a robot class before you continue here.)
+
+In the robot class, you need to register your component with the `registerComponent` function. Let's register out `Logger` component.
+
+```kotlin
+// Make sure to also run this in a new teleop! There's more information in the robot class chapter.
+class MyRobot(teleop: LinearOpMode, cfg: Config): Robot(teleop, cfg) {
+    override fun configure(builder: RuntimeBuilder) {
+        builder.registerComponent(Logger())
+    }
+}
+```
+
+There we go! If everything worked, then you should be able to run your new teleop and it should print `Status: Running` on the driver station.
