@@ -10,3 +10,7 @@
 - [Components](arch/components.md)
     - [Advanced Patterns](arch/component-patterns.md)
 - [Plugins](arch/plugins.md)
+
+# Appendix
+
+- [A - Math behind a triangle robot](appendix/triangle-robot-math.md)
