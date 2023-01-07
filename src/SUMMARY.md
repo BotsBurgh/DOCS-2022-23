@@ -11,6 +11,6 @@
     - [Advanced Patterns](arch/component-patterns.md)
 - [Plugins](arch/plugins.md)
 
-# Appendix
+# Design
 
-- [A - Math behind a triangle robot](appendix/triangle-robot-math.md)
+- [Moving a Triangle Robot](design/triangle-robot.md)
